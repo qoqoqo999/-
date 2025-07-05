@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #222;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #eee;
+}
+
+.game-container {
+    position: relative;
+    border: 5px solid #eee;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+}
+
+canvas {
+    background-color: #000;
+    display: block; /* canvasの下に余白ができないように */
+}
+
+#gameOverScreen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+}
+
+#gameOverScreen.hidden {
+    display: none;
+}
+
+#gameOverScreen h1 {
+    color: #ff3333;
+    margin-bottom: 20px;
+}
+
+#gameOverScreen p {
+    font-size: 0.8em;
+    margin-bottom: 30px;
+}
+
+#restartButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.7em;
+    transition: background-color 0.3s;
+}
+
+#restartButton:hover {
+    background-color: #45a049;
+}
