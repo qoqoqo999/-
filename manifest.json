@@ -28,13 +28,13 @@
       "type": "image/png"
     },
     {
-      "src": "/images/icon-192x192.png",
+      "src": "スネーク192.html",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/images/icon-512x512.png",
+      "src": "スネーク512.html",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
